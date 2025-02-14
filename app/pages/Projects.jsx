@@ -56,7 +56,7 @@ export default function Projects() {
   return (
     <div className="w-full h-full grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 p-10">
       {projectsData.map((project, index) => (
-        <div key={project.id} className={`Content-${index + 1} Content-wrapper w-full rounded-lg overflow-hidden h-full`}>
+        <div key={project.id} className={`Content-${index + 1} Content-wrapper w-full rounded-lg overflow-hidden h-full bg-slate-50`}>
           {/* Image Slider */}
           <div className="image-wrapper relative w-full">
             <Slider {...settings2}>
