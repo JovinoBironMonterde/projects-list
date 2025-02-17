@@ -92,6 +92,10 @@
     background-color: #179cad;
 }
 
+.Comming-Soon {
+    display: none !important;
+}
+
 /* .color-HTML { color: #E34F26; }
 .color-CSS { color: #1572B6; } 
 .color-JAVASCRIPT { color: #F7DF1E; } 

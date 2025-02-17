@@ -72,7 +72,7 @@ export default function Projects() {
                 </div>
               ))}
             </Slider>
-          <div className="Button-Group left-0 bottom-4 w-full flex gap-4 justify-center p-4">
+          <div className={`${project.status} Button-Group left-0 bottom-4 w-full flex gap-4 justify-center p-4`}>
             <Button sx={{ width: '130px', fontSize: '12px', color: 'whitesmoke', borderColor: 'whitesmoke' }} variant="outlined" color="primary" href={project.linkViewPage} target="_blank" rel="noopener noreferrer">
                 Preview
               </Button>

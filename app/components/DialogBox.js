@@ -79,9 +79,9 @@ export default function CustomizedDialogs({ open, handleClose, project }) {
               paddingTop: '150px'
             }}
           >
+            <Typography   gutterBottom>{project.titlePage}</Typography>
             <Typography gutterBottom>{project.description}</Typography>
-            <Typography gutterBottom>{project.description}</Typography>
-            <Typography gutterBottom>{project.description}</Typography>
+            {/* <Typography gutterBottom>{project.description}</Typography> */}
           </Box>
         </Box>
       </DialogContent> 

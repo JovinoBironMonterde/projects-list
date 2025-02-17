@@ -9,12 +9,15 @@ import mimnu3 from "../../public/assets/img/mimnu3.png";
 import AboutImage1 from "../../public/assets/img/avails.png";
 import AboutImage2 from "../../public/assets/img/image1.jpeg";
 import AboutImage3 from "../../public/assets/img/image2.jpeg";
+
+import ComingSoon3 from "../../public/assets/img/comingsoon3.jpg";
 import { Code, Web, DesignServices, Javascript } from "@mui/icons-material"; // Import MUI icons
 
 
 export const projectsData = [
   {
     id: 1,
+    status: "Published",
     layout: "Kylin Project",
     titlePage: "Kylin Project",
     images: [kylin1, kylin2, kylin3],
@@ -29,6 +32,7 @@ export const projectsData = [
   },
   {
     id: 2,
+    status: "Published",
     titlePage: "Mimnu",
     images: [mimnu1, mimnu2, mimnu3],
     description: "This is the second project showcasing another example.",
@@ -42,6 +46,7 @@ export const projectsData = [
   },
   {
     id: 3,
+    status: "Published",
     titlePage: "Sample Title",
     images: [AboutImage2, AboutImage1, AboutImage3],
     description: "A design project featuring creative visuals.",
@@ -55,6 +60,7 @@ export const projectsData = [
   },
   {
     id: 4,
+    status: "Published",
     titlePage: "Sample Title",
     images: [AboutImage2, AboutImage1, AboutImage3],
     description: "A design project featuring creative visuals.",
@@ -64,6 +70,48 @@ export const projectsData = [
       { icon: <Code />, title: "JAVASCRIPT", percentage: "52.3%" },
       { icon: <Javascript />, title: "HTML", percentage: "31.3%" },
       { icon: <DesignServices />, title: "CSS", percentage: "16.6%" },
+    ],
+  },
+  {
+    id: 5,
+    status: "Comming-Soon",
+    titlePage: "Pricing",
+    images: [ComingSoon3],
+    description: "Coming Soon!",
+    linkViewPage: "#",
+    linkViewCode: "#",
+    icons: [
+      { icon: <Code />, title: "", percentage: "" },
+      { icon: <Javascript />, title: "", percentage: "" },
+      { icon: <DesignServices />, title: "", percentage: "" },
+    ],
+  },
+  {
+    id: 6,
+    status: "Comming-Soon",
+    titlePage: "Coming Soon!",
+    images: [ComingSoon3],
+    description: "Coming Soon!",
+    linkViewPage: "#",
+    linkViewCode: "#",
+    icons: [
+      { icon: <Code />, title: "", percentage: "" },
+      { icon: <Javascript />, title: "", percentage: "" },
+      { icon: <DesignServices />, title: "", percentage: "" },
+    ],
+  },
+  {
+    id: 7,
+    status: "Comming-Soon",
+    titlePage: "Coming Soon!",
+    images: [ComingSoon3],
+    description: "Coming Soon!",
+    linkViewPage: "#",
+    linkViewCode: "#",
+    icons: [
+      { icon: <Code />, title: "", percentage: "" },
+      { icon: <Javascript />, title: "", percentage: "" },
+      { icon: <DesignServices />, title: "", percentage: "" },
     ],
   },
 ];
