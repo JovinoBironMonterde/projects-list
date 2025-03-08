@@ -116,7 +116,9 @@
 .color-MONGODB { color: #47A248; } 
 .color-FIREBASE { color: #FFCA28; } 
 .color-MATERIALUI { color: #0081CB; }  
-.color-HUBSPOT { color: #FF7A59; } */
+.color-HUBSPOT { color: #FF7A59; }
+.color-WORDPRESS { color: #21759B; }
+ */
 
 .HTML { background-color: #E34F26; }
 .CSS { background-color: #1572B6; } 
@@ -140,6 +142,8 @@
 .FIREBASE { background-color: #FFCA28; } 
 .MATERIALUI { background-color: #0081CB; }  
 .HUBSPOT { background-color: #FF7A59; }
+.WEBFLOW { background-color: #4353FF; }
+.WORDPRESS { background-color: #21759B; }
 
 
 
